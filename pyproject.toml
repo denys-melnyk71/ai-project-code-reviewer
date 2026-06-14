@@ -1,0 +1,11 @@
+[project]
+name = "ai-code-reviewer"
+version = "0.1.0"
+description = "AI Python Code Reviewer using Google Gemini API"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google-genai>=0.1.1",
+    "streamlit>=1.30.0",
+    "pydantic>=2.0.0",
+]
